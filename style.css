@@ -61,25 +61,22 @@ footer
         color: #1DA1F2;
 }
 
-.red:hover
-{
-    color:  #ff4500; 
-
-}
-
 .aboutme
 {
+    overflow-wrap: break-word;
     white-space: nowrap;
     overflow: hidden;
     width: 41ch;
+    height: auto;
     border-right: 10px solid #59546D;
     animation:
             typing steps(37) 2s,
             blink .5s step-end infinite alternate;
 }
 
-.output, .interests, .myinterest, footer
+.output, .interests, .myinterest, .ls,  footer
 {
+    height: auto;
     animation: content 4.5s;
 }
 
@@ -121,4 +118,13 @@ footer
   body {
     font-size: 1.25rem;
   }
+}
+@media (max-width:600px)
+{
+    body{
+        max-width: 41ch;
+    }
+p{
+    max-width: 40ch;
+    }
 }
