@@ -122,10 +122,10 @@ footer
 @media (max-width:600px)
 {
     body{
-        max-width: 50ch;
+        max-width: 70ch;
         font-size: 0.7rem;
     }
 p{
-    max-width: 45ch;
+    max-width: 60ch;
     }
 }
