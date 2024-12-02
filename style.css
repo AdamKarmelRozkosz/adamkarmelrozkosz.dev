@@ -95,7 +95,7 @@ footer
         width: 0;
     }
     100%{
-        width: 50ch;
+        width: 41ch;
     }
 }
 
@@ -127,5 +127,13 @@ footer
     }
 p{
     max-width: 60ch;
+    }
+    @keyframes typing
+{
+    0% {
+        width: 0;
+    }
+    100%{
+        width: 50ch;
     }
 }
