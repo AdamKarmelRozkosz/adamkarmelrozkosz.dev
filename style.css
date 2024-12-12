@@ -79,6 +79,19 @@ footer
     height: auto;
     animation: content 4.5s;
 }
+.lsinfo
+{
+    color: #9ccfd8;
+    display: flex;
+    gap: 10px;
+}
+.lsinfo a{
+    color: #9ccfd8;
+}
+.cdinfo{
+    white-space: nowrap;
+    overflow: hidden;
+}
 
 /* blinking animation */
 @keyframes blink
@@ -105,7 +118,9 @@ footer
     0% {
         visibility: hidden;
     }
-    50%{
+ 
+                
+  50%{
         visibility: hidden;
     }
     100%{
@@ -119,12 +134,4 @@ footer
     font-size: 1.25rem;
   }
 }
-@media (max-width:600px)
-{
-    body{
-        max-width: 41ch;
-    }
-p{
-    max-width: 40ch;
-    }
-}
+
