@@ -136,4 +136,11 @@ p{
     100%{
         width: 50ch;
     }
+    @keyframes blink
+    {
+        50%{
+        border-color: transparent;
+        }
+    }
+
 }
