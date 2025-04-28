@@ -15,7 +15,6 @@ proj.addEventListener("mouseleave", function() {
 
 cert.addEventListener("mouseover", function() {
     cd.innerHTML= "cd certifications"
-    cd.style.animation = 'typing 4s steps(41)';
     cd.style.width = '41ch';   
 })
 cert.addEventListener("mouseleave", function() {

@@ -45,6 +45,11 @@ a
     text-decoration: none;
 }
 
+.back a
+{
+    color: #E0DEF4;
+}
+
 footer
 {
     margin-top: auto;
