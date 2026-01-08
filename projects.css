@@ -50,6 +50,9 @@ footer
 {
     margin-top: auto;
 }
+.back{
+    color: #E0DEF4;
+}
 @media (min-width:600px) {
   body {
     font-size: 1.25rem;
